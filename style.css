@@ -1,0 +1,258 @@
+body {
+  padding-top: 70px;
+}
+body { 
+    background-color: #ebf1f6;
+}
+header {
+    width: 100%;
+    background-color: coral;
+}
+#heading{
+    width:100%;
+}
+#heading hgroup{
+    margin-left: 40px;
+}
+
+#content{
+    margin: 20px;
+    list-style-type: none;
+}
+#authenticated-nav{
+	list-style-type: none;
+}
+#whatis {
+    width: 300px;
+    background-color: forestgreen;
+    border: 10px solid orchid;
+}
+footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    top:1000px;
+}
+footer li{
+    display: inline;
+}
+.social{
+    list-style: none;
+    display: block;
+}
+
+.table {
+	margin-left: 25px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  height: 500px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0c4d97;
+  color: white;
+}
+
+.dropdown-item-text.text-muted{
+	float: right;
+	margin:25px;
+	background-color: #0c4d97;
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: inline-block;
+	list-style-type: none;
+}
+#navbarCollapse{
+	list-style-type: none;
+}
+.dropdown-item-text{
+	float: right;
+	margin:25px;
+	background-color: #0c4d97;
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: inline-block;
+	list-style-type: none;
+}
+.dropdown-item{
+	border-style: none;
+	background-color: #0c4d97;
+	color: white;
+	padding: 10px;
+	float: left;
+	position: relative;
+	display: inline-block;
+	margin:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style-type: none;	
+}
+#account-nav{
+	overflow: hidden;
+	background-color: #0c4d97;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	list-style-type: none;
+}
+.jumbotron{
+	border-style: none;
+	background-color: #0c4d97;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	width: 40%;
+	top: 50%;
+	left: 30%;
+	position: absolute;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.title{
+	border-style: none;
+	background-color: #0c4d97;
+	color: white;
+	padding: 10px;
+	float: left;
+	position: relative;
+	margin-left:25px;
+	z-index: -100;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.btn-link{
+	border-style: none;
+	background-color: #0c4d97;
+	color: white;
+	padding: 10px;
+	float: right;
+	position: relative;
+	margin:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#nextbutton:before{
+   content: "Next";
+}
+#nextbutton{
+  background-color: #0c4d97; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top:  5px;
+  margin-right: 25px;
+  float: right;
+  display: inline-block;
+}
+
+#backbutton:before{
+   content: "Back";
+}
+
+#backbutton{
+  background-color: #0c4d97; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#add:before{
+   content: "Add";
+}
+
+#add{
+  background-color: #0c4d97; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+#table {
+	margin-left: 25px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  height: 500px;
+}
+
+#table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0c4d97;
+  color: white;
+}
+
+input[type=text] {
+  width: 130px;
+  margin: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('search.png');
+  background-size: 25px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+#search:before{
+   content: "Search for Folder";
+}
+
+#search{
+  background-color: #0c4d97; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}
