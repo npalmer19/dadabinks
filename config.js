@@ -1,7 +1,7 @@
 const msalConfig = {
   auth: {
-    clientId: 'c824ef69-93ed-4f9c-b717-ab57e5cf0551',
-    redirectUri: 'http://www.npalmer19.github.io/dadabinks/'
+    clientId: 'ee60ca03-9485-4238-8bca-596a182f2065',
+    redirectUri: 'https://npalmer19.github.io/dadabinks/'
   },
   cache: {
     cacheLocation: "sessionStorage",
