@@ -1,6 +1,6 @@
 const msalConfig = {
   auth: {
-    clientId: 'ee60ca03-9485-4238-8bca-596a182f2065',
+    clientId: '03f59324-14ec-41ea-bf4d-da087c93fdf9',
     redirectUri: 'https://npalmer19.github.io/dadabinks/'
   },
   cache: {
